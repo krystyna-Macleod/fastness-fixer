@@ -13,118 +13,17 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-sub,
-sup {
-  font-size: 75%;
-  line-height: 1px;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -.5em;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-size: 100%;
-}
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-
 b,
 strong {
   font-weight: bold;
-}
-
-dfn,
-caption {
-  font-style: italic;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid;
-  height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  table-layout: fixed;
-}
-
-caption {
-  text-align: left;
-}
-
-th,
-td {
-  border-bottom: 1px solid;
-  text-align: left;
-  vertical-align: top;
-}
-
-thead th {
-  vertical-align: bottom;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-center {
   text-align: center;
 }
 
-.normal {
-  font-weight: normal;
-  font-style: normal;
-}
-
-.not-bold {
-  font-weight: normal;
-}
-
-.not-italic {
-  font-style: normal;
-}
-
 .bold {
   font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.text-upper {
-  text-transform: uppercase;
-}
-
-.text-lower {
-  text-transform: lowercase;
-}
-
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 52em;
 }
 
 .max-length {
@@ -140,7 +39,6 @@ h4,
 h5,
 h6,
 p,
-ul,
 ol,
 dl,
 dd,
@@ -160,10 +58,6 @@ caption {
   line-height: 2.275rem;
 }
 
-.zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
-}
 
 h1,
 .exa {
@@ -175,12 +69,6 @@ h2,
 .peta {
   font-size: 1.2962rem;
   line-height: 1.95rem;
-}
-
-h3,
-.tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
 }
 
 h4,
@@ -195,22 +83,9 @@ h5,
   line-height: 1.625rem;
 }
 
-h6,
-.kilo,
-input,
-textarea {
-  font-size: 1rem;
-  line-height: 1.3rem;
-}
-
 small,
 .milli {
   font-size: .9372rem;
-  line-height: 1.3rem;
-}
-
-.micro {
-  font-size: .8784rem;
   line-height: 1.3rem;
 }
 
@@ -222,23 +97,6 @@ ol {
   padding-left: 1.6em;
 }
 
-input,
-option,
-select {
-  height: calc(1.3rem + .1625rem + .1625rem);
-}
-
-input[type="color"] {
-  width: calc(1.3rem + .1625rem + .1625rem);
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline-block;
-  height: auto;
-  width: auto;
-}
-
 .push {
   margin-bottom: 1.3rem;
 }
@@ -248,84 +106,9 @@ input[type="radio"] {
   margin-bottom: 0;
 }
 
-.push-double,
-.push-2 {
-  margin-bottom: 2.6rem;
-}
-
 .push-half,
 .push-1-2 {
   margin-bottom: .65rem;
-}
-
-.push-quarter,
-.push-1-4 {
-  margin-bottom: .325rem;
-}
-
-.push-eighth,
-.push-1-8 {
-  margin-bottom: .1625rem;
-}
-
-.push-right-eighth,
-.push-r-1-8 {
-  margin-right: .1625rem;
-}
-
-.push-right-quarter,
-.push-r-1-4 {
-  margin-right: .325rem;
-}
-
-.push-right-half,
-.push-r-1-2 {
-  margin-right: .65rem;
-}
-
-.push-right,
-.push-r {
-  margin-right: 1.3rem;
-}
-
-.pad-top,
-.pad-t {
-  padding-top: 1.3rem;
-}
-
-.pad-bottom,
-.pad-b {
-  padding-bottom: 1.3rem;
-}
-
-.pad-top-double,
-.pad-t-2 {
-  padding-top: 2.6rem;
-}
-
-.pad-bottom-double,
-.pad-b-2 {
-  padding-bottom: 2.6rem;
-}
-
-.pad-top-half,
-.pad-t-1-2 {
-  padding-top: .65rem;
-}
-
-.pad-bottom-half,
-.pad-b-1-2 {
-  padding-bottom: .65rem;
-}
-
-.pad-top-quarter,
-.pad-t-1-4 {
-  padding-top: .325rem;
-}
-
-.pad-bottom-quarter,
-.pad-b-1-4 {
-  padding-bottom: .325rem;
 }
 
 .pad-top-eighth,
@@ -336,66 +119,6 @@ input[type="radio"] {
 .pad-bottom-eighth,
 .pad-b-1-8 {
   padding-bottom: .1625rem;
-}
-
-.island {
-  padding: 1.3rem;
-}
-
-.island-double,
-.island-2 {
-  padding: 2.6rem;
-}
-
-.island-half,
-.island-1-2 {
-  padding: .65rem;
-}
-
-.island-quarter,
-.island-1-4,
-td,
-table th,
-fieldset {
-  padding: .325rem;
-}
-
-.island-eighth,
-.island-1-8,
-input,
-textarea,
-select {
-  padding: .1625rem;
-}
-
-.gutter {
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
-}
-
-.gutter-double,
-.gutter-2 {
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
-}
-
-.gutter-half,
-.gutter-1-2 {
-  padding-left: .65rem;
-  padding-right: .65rem;
-}
-
-.gutter-quarter,
-.gutter-1-4,
-caption {
-  padding-left: .325rem;
-  padding-right: .325rem;
-}
-
-.gutter-eighth,
-.gutter-1-8 {
-  padding-left: .1625rem;
-  padding-right: .1625rem;
 }
 
 @media only screen and (min-width: 38em) {
